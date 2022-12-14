@@ -1,4 +1,5 @@
 import "./App.css";
+import UpdateTitleComponent from "./UpdateTitleButton";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       </section>
       <div class="container is-fullhd">
         <div class="notification">
-          Edit the <code>./src</code> folder to add components.
+          {/* Edit the <code>./src</code> folder to add components. */}
+          <UpdateTitleComponent />
         </div>
       </div>
     </div>
